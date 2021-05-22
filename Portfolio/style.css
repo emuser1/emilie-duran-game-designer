@@ -1,0 +1,327 @@
+@import url("https://use.typekit.net/hod3jva.css");
+@import url(contact.css);
+
+html{
+    scroll-behavior: smooth; 
+    border: solid;
+    border-width: 18px;
+    border-color: #CCE8CC;
+}
+
+body{
+    background-color: #FFFAFA;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFFAFA;
+}
+
+header img{
+    width: 45px;
+}
+
+main{
+    margin-top: 100px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+span{
+    padding: 10px;
+}
+
+h1{
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    font-size: 40px;
+} 
+
+h2{
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+}
+
+
+h3{
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    position: relative;
+    left: 20%; 
+}
+
+
+footer{
+   /* background-color: #e6e6ff; */
+    margin: 0 auto; 
+    padding: 40px;
+}
+
+footer img{
+    width: 30px;
+    position: relative;
+    left: 90%;
+}
+
+input,
+textarea {
+    border: solid;
+    border-width: 2px;
+    border-color: #CCE8CC;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 70px; 
+}
+
+form p{
+    margin-bottom: 10%;
+}
+
+button{
+    width: 25%;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 7px 35px;
+    text-decoration: none;
+    color: #222222;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color:#CCE8CC;
+    background-color: #FFFAFA;
+}
+
+button:hover{
+    background-image: linear-gradient(
+    145deg,
+    transparent 10%,
+    #72C072 10% 20%,
+    transparent 20% 30%,
+    #72C072 30% 40%,
+    transparent 40% 50%,
+    #72C072 50% 60%,
+    transparent 60% 70%,
+    #72C072 70% 80%,
+    transparent 80% 90%,
+    #72C072 90% 100%
+  );
+  animation:  button 5s linear infinite;
+}
+
+button:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
+    width: 65%;
+    margin: 0 auto;
+}
+  
+.menu {
+    position: relative;
+    top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.menu a {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+    letter-spacing: 2px;
+}
+  
+.menu a:hover {
+    color: #72C072;
+}
+
+#active{
+    color: #72C072;
+}
+
+.logoGrid{
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: .35fr 1fr;
+}
+
+.intro{
+   display: grid;
+   grid-template-columns: 1.5fr .75fr;
+   font-size: 20px;
+   margin-bottom: 100px;
+   margin-top: 100px;
+}
+
+.intro a, .aboutGrid a{
+    text-decoration: none;
+    color: #222222;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color:#CCE8CC;
+}
+
+.intro a:hover, .aboutGrid a:hover{
+    background-image: linear-gradient(
+    145deg,
+    transparent 10%,
+    #72C072 10% 20%,
+    transparent 20% 30%,
+    #72C072 30% 40%,
+    transparent 40% 50%,
+    #72C072 50% 60%,
+    transparent 60% 70%,
+    #72C072 70% 80%,
+    transparent 80% 90%,
+    #72C072 90% 100%
+  );
+  animation:  button 5s linear infinite;
+}
+
+.intro a:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr .25fr;
+}
+
+.workGrid img{
+    width: 525px;
+}
+
+.workGrid img:hover{
+    width: 550px;
+    transition: width 1s, height 1s;
+}
+
+.workGrid a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.workGrid a:hover{
+    color: #72C072;
+}
+
+.minigrid1{
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    margin-bottom: 70px;
+}
+
+.minigrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+}
+
+.minigrid2 p{
+    margin-right: 20px;
+}
+
+.minigrid3{
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+}
+
+.footerGrid{
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.icons{
+    position: relative;
+    right: 75%;
+}
+
+.pBigger{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.aboutGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-top: 12%;
+}
+
+.aboutGrid a:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC
+}
+
+#eD{
+    position: relative;
+    top: -30px;
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#title{
+    position: relative;
+    top: -75px;
+}
+
+#selfie img{
+    width: 70%;
+}
+
+@keyframes button {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+}
