@@ -242,25 +242,26 @@ button:active{
     color: #72C072;
 }
 
-.minigrid1{
+.minigrid1, .minigrid3{
     display: grid;
     grid-template-columns: 1fr .75fr;
     margin-bottom: 70px;
 }
 
-.minigrid2{
+.minigrid2, .minigrid4{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 70px;
 }
 
-.minigrid2 p{
+.minigrid2, .minigrid4 p{
     margin-right: 20px;
 }
 
-.minigrid3{
+.minigrid5{
     display: grid;
     grid-template-columns: 1fr .75fr;
+    margin-bottom: 70px;
 }
 
 .footerGrid{
