@@ -6,7 +6,7 @@ html{
     border: solid;
     border-width: 18px;
     border-color: #CCE8CC;
-}
+} 
 
 body{
     background-color: #FFFAFA;
@@ -19,7 +19,7 @@ body{
 header{
     position: sticky;
     top: 0;
-    /* width: 100%; */
+    /* \width: 100%; */
     height: 100px;
     margin: 0 auto;
     background-color: #FFFAFA;
@@ -54,8 +54,7 @@ h2{
 h3{
     font-family: ivypresto-display,serif;
     font-weight: 600;
-    position: relative;
-    left: 20%; 
+    margin-left: 20%;
 }
 
 
@@ -269,7 +268,7 @@ button:active{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-}
+} 
 
 .icons{
     position: relative;
