@@ -315,6 +315,7 @@ button:active{
 
 #selfie img{
     width: 70%;
+    margin-top: 10%;
 }
 
 @keyframes button {
