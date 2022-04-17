@@ -19,6 +19,7 @@ body{
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
     /* \width: 100%; */
     height: 100px;
     margin: 0 auto;
@@ -221,16 +222,22 @@ button:active{
 
 .workGrid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr .25fr;
+    grid-template-columns: .50fr .50fr .50fr;
+    text-align: center;
 }
 
 .workGrid img{
-    width: 525px;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    width: 300px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .workGrid img:hover{
-    width: 550px;
-    transition: width 1s, height 1s;
+    filter: brightness(85%);
+    -webkit-filter: brightness(85%);
 }
 
 .workGrid a{
@@ -242,25 +249,15 @@ button:active{
     color: #72C072;
 }
 
-.minigrid1, .minigrid3{
+.minigrid1, .minigrid2, .minigrid3{
     display: grid;
-    grid-template-columns: 1fr .75fr;
-    margin-bottom: 70px;
+    grid-template-rows: .90fr .25fr;
+    margin-bottom: 30px; 
 }
 
-.minigrid2, .minigrid4{
+.minigrid4, .minigrid4{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 70px;
-}
-
-.minigrid2, .minigrid4 p{
-    margin-right: 20px;
-}
-
-.minigrid5{
-    display: grid;
-    grid-template-columns: 1fr .75fr;
+    grid-template-rows: .90fr .25fr;
     margin-bottom: 70px;
 }
 
