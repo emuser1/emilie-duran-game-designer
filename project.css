@@ -1,3 +1,18 @@
 h1 {
     text-align: center;
 }
+
+.infoGrid {
+    width: 700px;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: .20fr .45fr;
+}
+
+.infoGrid p{
+    margin-bottom: -10px;
+}
+
+.infoHeadings{
+    font-weight: 600;
+}
