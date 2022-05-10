@@ -52,7 +52,7 @@ h2{
 }
 
 
-h3{
+footer h3{
     font-family: ivypresto-display,serif;
     font-weight: 600;
     margin-left: 20%;
@@ -288,7 +288,6 @@ button:active{
 .aboutGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     margin-top: 12%;
 }
 
