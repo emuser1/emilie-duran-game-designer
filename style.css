@@ -288,7 +288,7 @@ button:active{
 .aboutGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 10%;
+    
     margin-top: 12%;
 }
 
@@ -313,7 +313,7 @@ button:active{
 
 #selfie img{
     width: 70%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 @keyframes button {
