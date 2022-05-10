@@ -2,6 +2,12 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    text-align: left;
+}
+
  img {
     width: 700px;
     position: relative;
