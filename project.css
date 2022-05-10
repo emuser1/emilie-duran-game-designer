@@ -92,3 +92,14 @@ h1 {
     width: 192px;
     padding: 5px;
 }
+
+.acWireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.acWireframe img {
+    width: 296px;
+    padding: 5px;
+}
