@@ -55,7 +55,7 @@ h1 {
 
 .nextProjectGrid{
     display: grid;
-    grid-template-columns: 3fr .55fr; 
+    grid-template-columns: 3fr 1.16fr; 
 }
 
 .nextText p {
@@ -102,4 +102,20 @@ h1 {
 .acWireframe img {
     width: 296px;
     padding: 5px;
+}
+
+.nextProjectGrid img {
+    width: 14px;
+}
+
+.nextText {
+    display: inline;
+}
+
+.nextText a:hover {
+    color: #72C072;
+}
+
+.nextText a:active {
+    color: #CCE8CC;
 }
