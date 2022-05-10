@@ -188,7 +188,7 @@ button:active{
    margin-top: 100px;
 }
 
-.intro a, .aboutGrid a{
+.intro a, .aboutGrid a, #dpInfo a{
     text-decoration: none;
     color: #222222;
     border: solid;
@@ -197,7 +197,7 @@ button:active{
     border-color:#CCE8CC;
 }
 
-.intro a:hover, .aboutGrid a:hover{
+.intro a:hover, .aboutGrid a:hover, #dpInfo a:hover{
     background-image: linear-gradient(
     145deg,
     transparent 10%,
@@ -214,7 +214,7 @@ button:active{
   animation:  button 5s linear infinite;
 }
 
-.intro a:active{
+.intro a:active, .aboutGrid a:active, #dpInfo a:active{
     color: #fff;
     background-color: #CCE8CC;
     border-color: #CCE8CC;
@@ -230,6 +230,7 @@ button:active{
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
     width: 300px;
+    height: 300px;
     border: solid;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, 0);
