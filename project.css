@@ -17,10 +17,6 @@ h3 {
     border-color: rgba(184, 125, 75, 0);
 }
 
-iframe {
-    margin: 0 auto;
-}
-
 .infoGrid {
     width: 660px;
     margin: 0 auto;
@@ -129,3 +125,4 @@ iframe {
 .nextText a:active {
     color: #CCE8CC;
 }
+
