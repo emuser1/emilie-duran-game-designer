@@ -280,10 +280,10 @@ button:active{
     margin-bottom: 100px;
 }
 
-/*.hideme
+.hideme
 {
     opacity:0;
-} */
+}
 
 .aboutGrid{
     display: grid;
