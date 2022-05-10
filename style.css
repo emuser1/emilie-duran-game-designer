@@ -214,7 +214,7 @@ button:active{
   animation:  button 5s linear infinite;
 }
 
-.intro a:active, .aboutGrid a:active, .aboutProject a:hover, #dpInfo a:active{
+.intro a:active, .aboutGrid a:active, .aboutProject a:active, #dpInfo a:active{
     color: #fff;
     background-color: #CCE8CC;
     border-color: #CCE8CC;
